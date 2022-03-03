@@ -11,6 +11,7 @@ Proyecto base para crear aplicaciones siguiendo la metodología TDD
    $ mkdir .venv ### Opcional: Crea el entorno virtual dentro del proyecto
    $ pipenv install
    ```
+   pipenv install --dev
    El comando `pipenv install` crea el entorno virtual e instala las dependencias definidas en el fichero `Pipfile`.
 1. Accede al entorno virtual:
    ```bash
@@ -32,3 +33,7 @@ Proyecto base para crear aplicaciones siguiendo la metodología TDD
 - [GitHub Actions: Building and testing Python](https://docs.github.com/es/actions/automating-builds-and-tests/building-and-testing-python)
 - [PyTest With GitHub Actions](https://blog.dennisokeeffe.com/blog/2021-08-08-pytest-with-github-actions)
 - [Documentación del framework `pytest` para la realización de pruebas en Python](https://docs.pytest.org/)
+
+
+
+![status:](https://github.com/Jonh1979/tdd-python-template/docs/actions/workflows/main.yml/badge.svg)

@@ -30,7 +30,8 @@ print(cifrado_rot13("foobar"))
 def cifrado_rot_2(n):
     lc = string.ascii_lowercase
     uc = string.ascii_uppercase
-    trans = str.maketrans(lc + uc, lc[:n] + uc[:n] + uc[:n])
+    trans = str.maketrans(lc + uc, lc[n:] + lc[:n] + uc[n:] + uc[:n])
+
     return lambda s: str.translate(s, trans)
 
 

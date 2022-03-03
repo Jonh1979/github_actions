@@ -1,0 +1,17 @@
+{
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.formatting.provider": "black",
+    "python.linting.flake8Enabled": true,
+    // "python.sortImports.path": "${workspaceFolder}.venv/bin/isort",
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.formatOnSave": true
+    },
+}

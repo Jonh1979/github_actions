@@ -1,7 +1,7 @@
 import string
 
 
-def cifrado_rot(str_in, shift):
+def cifrado_rot13(str_in, shift):
     alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     n = len(str_in)
     str_out = ""
@@ -16,15 +16,15 @@ def cifrado_rot(str_in, shift):
 
 
 def cifrado_rot13(msg):
-    return cifrado_rot(msg, 13)
+    return cifrado_rot13(msg, 13)
 
 
 def cifrado_cesar(msg):
-    return cifrado_rot(msg, 3)
+    return cifrado_rot13(msg, 3)
 
 
 print(cifrado_cesar("foobar"))
-print(cifrado_rot("foobar"))
+print(cifrado_rot13("foobar"))
 
 
 def cifrado_rot_2(n):

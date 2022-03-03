@@ -1,5 +1,7 @@
 # Plantilla para desarrollo guiado por pruebas en Python
 
+![Estado](https://github.com/Jonh1979/github_actions/actions/workflows/python-package.yml/badge.svg)
+
 Proyecto base para crear aplicaciones siguiendo la metodología TDD
 
 ## Instrucciones
@@ -33,7 +35,10 @@ Proyecto base para crear aplicaciones siguiendo la metodología TDD
 - [GitHub Actions: Building and testing Python](https://docs.github.com/es/actions/automating-builds-and-tests/building-and-testing-python)
 - [PyTest With GitHub Actions](https://blog.dennisokeeffe.com/blog/2021-08-08-pytest-with-github-actions)
 - [Documentación del framework `pytest` para la realización de pruebas en Python](https://docs.pytest.org/)
+<<<<<<< HEAD
 
 
 
 ![status:](https://github.com/Jonh1979/tdd-python-templat/docs/actions/workflows/main.yml/badge.svg)
+=======
+>>>>>>> c93fa7853cb371b431827a1ee4f9796fe02368d1

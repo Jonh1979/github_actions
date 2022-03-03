@@ -52,15 +52,15 @@ def resto(x, y):
     return x % y
 
 def rot13_cipher(str_in, shift):
-    alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    n = len(str_in)
-    str_out = ""
+        alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        n = len(str_in)
+        str_out = ""
 
-    for i in range(n):
-        c = str_in[i].upper()
-        loc = alpha.find(c)
-        newloc = (loc + shift) % 26
-        str_out += alpha[newloc]
+        for i in range(n):
+            c = str_in[i].upper()
+            loc = alpha.find(c)
+            newloc = (loc + shift) % 26
+            str_out += alpha[newloc]
 
     return str_out
 

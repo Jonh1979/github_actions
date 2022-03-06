@@ -40,4 +40,4 @@ Proyecto base para crear aplicaciones siguiendo la metodología TDD
 
 ![Estado](https://github.com/Jonh1979/github_actions/actions/workflows/python-package.yml/badge.svg)
 
-
+![Estado_2](https://github.com/Jonh1979/github_actions/docs/actions/workflows/main.yml/badge.svg)
